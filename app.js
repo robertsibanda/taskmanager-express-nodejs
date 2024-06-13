@@ -7,6 +7,7 @@ const database = require("./database/db")
 const authenticationRouter = require("./routes/authentication")
 const tasksRouter = require("./routes/tasks")
 
+// app
 const app = express();
 
 app.use(logger('dev'));
